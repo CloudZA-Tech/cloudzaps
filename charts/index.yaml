@@ -1,0 +1,103 @@
+apiVersion: v1
+entries:
+  Cloudza:
+  - apiVersion: v2
+    appVersion: 1.12.12
+    created: "2024-02-03T15:52:20.856035447+02:00"
+    dependencies:
+    - condition: console.
+      name: console
+      repository: s3://cloudzaps/charts/
+      version: 1.2.17
+    - condition: console-api.
+      name: console-api
+      repository: s3://cloudzaps/charts/
+      version: 1.1.12
+    - condition: identity.
+      name: identity
+      repository: s3://cloudzaps/charts/
+      version: 1.3.10
+    - condition: secret.
+      name: secret
+      repository: s3://cloudzaps/charts/
+      version: 1.3.12
+    - condition: repository.
+      name: repository
+      repository: s3://cloudzaps/charts/
+      version: 1.3.9
+    - condition: plugin.
+      name: plugin
+      repository: s3://cloudzaps/charts/
+      version: 1.3.9
+    - condition: config.
+      name: config
+      repository: s3://cloudzaps/charts/
+      version: 1.3.9
+    - condition: inventory.
+      name: inventory
+      repository: s3://cloudzaps/charts/
+      version: 1.3.16
+    - condition: monitoring.
+      name: monitoring
+      repository: s3://cloudzaps/charts/
+      version: 1.3.21
+    - condition: statistics.
+      name: statistics
+      repository: s3://cloudzaps/charts/
+      version: 1.3.11
+    - condition: cost-analysis.
+      name: cost-analysis
+      repository: s3://cloudzaps/charts/
+      version: 1.3.14
+    - condition: notification.
+      name: notification
+      repository: s3://cloudzaps/charts/
+      version: 1.3.15
+    - condition: board.
+      name: board
+      repository: s3://cloudzaps/charts/
+      version: 1.3.10
+    - condition: file-manager.
+      name: file-manager
+      repository: s3://cloudzaps/charts/
+      version: 1.3.4
+    - condition: dashboard.
+      name: dashboard
+      repository: s3://cloudzaps/charts/
+      version: 1.3.10
+    - condition: console-api-v2.
+      name: console-api-v2
+      repository: s3://cloudzaps/charts/
+      version: 1.0.5
+    - condition: supervisor.
+      name: supervisor
+      repository: s3://cloudzaps/charts/
+      version: 1.1.14
+    - condition: marketplace-assets.
+      name: marketplace-assets
+      repository: s3://cloudzaps/charts/
+      version: '>=1.0.0'
+    - condition: spacectl.
+      name: spacectl
+      repository: s3://cloudzaps/charts/
+      version: '>=1.0.0'
+    description: A Helm chart for CloudZADash
+    digest: 7d8a114eceda3d3b59423f5074ae7352d033405a35d192af79296b9bb024176e
+    home: https://www.cloudza.io
+    name: Cloudza
+    type: application
+    urls:
+    - s3://cloudzaps/charts/Cloudza-1.12.12.tgz
+    version: 1.12.12
+  cloudza-initializer:
+  - apiVersion: v2
+    appVersion: 1.x.y
+    created: "2024-02-03T16:30:58.119609833+02:00"
+    description: CloudZA domain initializer Helm chart for Kubernetes
+    digest: 4237f15047aec00ea6928bccf8130bdc7b39099165e93e8ba67d23e6841fc0ae
+    name: cloudza-initializer
+    type: application
+    urls:
+    - s3://cloudzaps/charts/cloudza-initializer-1.3.3.tgz
+    version: 1.3.3
+generated: "2024-02-03T15:05:49.174529223+02:00"
