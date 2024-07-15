@@ -422,7 +422,7 @@ supervisor:
         endpoint:
           v1: grpc://plugin:50051
       KubernetesConnector:
-        namespace: spaceone-plugin
+        namespace: cloudza-plugin
         start_port: 50051
         end_port: 50052
         headless: true
@@ -433,8 +433,8 @@ supervisor:
 
 
 global:
-  namespace: spaceone
-  supervisor_namespace: spaceone
+  namespace: cloudza
+  supervisor_namespace: cloudza
   backend:
     sidecar: [ ]
     volumes: [ ]
